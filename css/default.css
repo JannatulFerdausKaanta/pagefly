@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+ul{
+	margin-left: 0;
+}
+li{
+	list-style: none;
+}
+a, a:hover{
+	text-decoration: none;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	background: #FFFFF0;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+}

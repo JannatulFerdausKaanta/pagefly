@@ -1,0 +1,172 @@
+/* XX Large Screen */
+@media(max-width: 1399px){
+
+}
+
+
+
+/* X Large Screen */
+@media(max-width: 1199px){
+
+}
+
+
+
+/* Large Screen */
+@media(max-width: 991px){
+
+	.banner-section .banner-inner{
+	    width: 56%;
+	}
+
+	.banner-section .banner-inner h1{
+		font-size: 29px;
+	}
+
+	.banner-section .banner-inner p{
+		font-size: 16px;
+	}
+
+	.banner-section .banner-inner h2{
+		font-size: 28px;
+	}
+
+	.strike:before{
+    	width: 64px;
+	}
+	.description-section {
+    	padding: 40px 0px;
+	}
+	.description-section .description-inner p {
+    	font-size: 14px;
+	}
+	.card-section {
+    	padding: 25px 0px 75px;
+    }
+	.card-section .card-inner h6 {
+	    font-size: 13px;
+	    font-weight: 600;
+	}
+
+	.card-section .card-inner p {
+    	font-size: 14px;
+	}
+
+	.feature-content h1 {
+    	font-size: 36px;
+    	margin-top: 21px;
+	}
+
+	.feature-content ul li {
+    	font-size: 15px;
+	}
+	.brand-section p {
+	    padding: 8px 60px;
+	    font-size: 15px;
+	}
+	.footer-section h2 {
+    	font-size: 34px;
+	}	
+	.footer-section h5 {
+    	font-size: 18px;
+	}
+	.footer-section .copyright p{
+    	font-size: 14px;
+	}
+}
+
+
+
+/* Medium Screen */
+@media(max-width: 767px){
+	.banner-section .banner-inner{
+	    width: 78%;
+	}
+
+	.description-section .description-inner p {
+    	font-size: 13px;
+	}
+
+	.card-section .card-inner h6 {
+	    font-size: 14px;
+	}
+
+	.card-section .card-inner p {
+    	font-size: 10px;
+	}
+
+	.feature-content {
+    	padding-left: 42px;
+	}
+	.feature-content h1 {
+    	font-size: 30px;
+    	margin-top: 10px;
+	}
+	.feature-content ul li {
+    	font-size: 13px;
+	}
+
+	.brand-section {
+    	padding: 38px;
+	}
+	.brand-section p {
+	    padding: 8px 60px;
+	    font-size: 14px;
+	}
+
+	.footer-section h2 {
+    	font-size: 29px;
+	}	
+	.footer-section h5 {
+    	font-size: 16px;
+	}
+	.footer-section .copyright p{
+    	font-size: 13px;
+	}	
+}
+
+
+
+/* Small Screen */
+@media(max-width: 575px){
+
+}
+
+
+
+/* X Small Screen */
+@media(max-width: 320px){
+	.header-section img {
+    	width: 25%;
+	}
+
+	.banner-section{
+		padding: 15px 0px;
+	}
+	.banner-section .banner-inner{
+	    width: 95%;
+	    margin: 15px 0 auto;
+	}
+	.banner-section .banner-inner h1 {
+    	font-size: 19px;
+	}
+	.banner-section .banner-inner p{
+    	font-size: 13px;
+	}
+	.banner-section .banner-inner h2 {
+    	font-size: 20px;
+	}
+	.banner-section .banner-inner .btn {
+	    padding: 5px 13px;
+	    font-size: 13px;
+  	}
+  	.strike:before {
+    	width: 46px;
+	}
+	.description-section .description-inner span {
+    	width: 100%;
+	}
+	.description-section .container{
+		
+	}
+}

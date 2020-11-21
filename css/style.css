@@ -1,0 +1,239 @@
+.header-section{
+    padding: 20px 0px;
+}
+.header-section img, svg{
+    vertical-align: middle;
+    width: 145px;
+}
+.header-section .nav-link {
+    font-size: 17px;
+    margin-right: 40px;
+    font-weight: 700;
+    color: #000 !important;
+}
+.header-section .fa{
+    color: #5f67ff;
+}
+.header-section .btn-info{
+    color: #fff !important;
+    background: #5f67ff;
+    padding: 10px 30px !important;
+    border-radius: 5px;
+}
+.header-section .btn-info:hover{
+    background: #00008B;
+}
+
+
+
+
+
+
+.partner {
+    padding: 80px 0px;
+}
+.partner .part-box{
+    
+}
+.partner .part-box h1 {
+    font-size: 50px;
+    color: #fff;
+    display: inline-block;
+    background: #5f67ff;
+    padding: 12px 80px 12px calc(50% - 660px);
+    border-radius: 0px 5px 5px 0px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+.feature{
+
+}
+.feature .feature-inner{
+
+}
+.feature .feature-inner h1{
+    font-size: 62px;
+    font-weight: 800;
+ /*   margin-bottom: 30px;*/
+    color: #5f67ff;
+}
+.feature .feature-inner h3{
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+.feature .feature-inner .card{
+    border: none;
+    padding: 28px;
+    margin: 0px 5px;
+    box-shadow: 0 14px 10px 0 rgba(92,147,180,0.2);
+    transition: .3s;
+}
+.feature .feature-inner .card:hover{
+    transform: scale(1.03);
+}
+.feature .feature-inner .card img{
+    padding: 10px
+}
+.feature .feature-inner .card .card-body{
+    
+}
+.feature .feature-inner .card .card-body h5{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.feature .feature-inner .card .card-body p{
+    font-size: 15px;
+    color:  #A9A9A9;
+}
+
+
+
+
+
+.join{
+    margin: 135px 0px;
+}
+.join .join-img{
+    padding: 45px;
+    margin-right: 15px;
+    box-shadow: 0 14px 22px 0 rgba(92,147,180,0.2);
+}
+.join .join-img img{
+    height: 335px;
+}
+.join .join-txt{
+    padding: 40px;
+    margin-top: 68px;
+    box-shadow: 0 14px 22px 0 rgba(92,147,180,0.2);
+}
+
+
+
+box-shadow: 0 14px 20px 0 rgba(92,147,180,0.2);
+.our-partner{
+    padding: 40px;
+}
+.our-partner .headline{
+
+}
+.our-partner .headline h1{
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #5f67ff;
+}
+.our-partner .card{
+    border: none;
+    margin: 0px 15px 90px;
+}
+.our-partner .card .card-img{
+    padding: 30px;
+    border-top: 6px solid #5f67ff;
+    box-shadow: 0 14px 20px 0 rgba(95,147,180,0.2);
+}
+.our-partner .card .card-img img{
+    width: 317px;
+    height: 95px;
+}
+.our-partner .card .card-body{
+    margin-top: 20px;
+}
+.our-partner .card .card-body h5{
+    font-size: 18px;
+    font-weight: 700;
+}
+.our-partner .card .card-body p{
+    font-size: 14px;
+    color:  #A9A9A9;
+}
+
+
+
+
+
+.steps{
+    padding: 95px 0px;
+}
+.steps .steps-headline{
+    margin-bottom: 60px;
+}
+.steps .steps-headline h3{
+    font-size: 38px;
+    font-weight: 700;
+}
+.steps .steps-inner{
+    padding: 15px
+}
+.steps .steps-inner h1{
+    font-size: 98px;
+    font-weight: 600;
+    color: #5f67ff;
+}
+.steps .steps-inner h5{
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+.steps .steps-inner p{
+    font-size: 14px;
+    color:  #A9A9A9;
+}
+.steps .button{
+    margin: 40px 0px
+}
+.steps .button .btn-info{
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff !important;
+    background: #5f67ff;
+    padding: 15px 32px !important;
+    border-radius: 5px;
+}
+.steps .button .btn-info:hover{
+    background: #00008B;
+}
+
+
+
+
+
+.footer-section{
+    background: #474545;
+    padding: 65px 0px 20px;
+}
+.footer-section .foot-box{
+
+}
+.footer-section .foot-box h6{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.footer-section .foot-box ul{
+    padding-inline-start: 0px;
+}
+.footer-section .foot-box ul li{
+
+}
+.footer-section .foot-box ul li a{
+    font-size: 15px;
+    color: #fff;
+}
+.footer-section .foot-box ul li a:hover{
+    font-size: 17px;
+    color: #5f67ff;
+}
+.footer-section .copy{
+    margin-top: 60px;
+}
+.footer-section .copy p{
+    font-size: 14px;
+    color: #fff;
+    margin-top: 30px;
+}
