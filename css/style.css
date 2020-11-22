@@ -1,5 +1,5 @@
 .header-section{
-    padding: 20px 0px;
+    padding: 15px 0px;
 }
 .header-section img, svg{
     vertical-align: middle;
@@ -7,7 +7,7 @@
 }
 .header-section .nav-link {
     font-size: 17px;
-    margin-right: 40px;
+    margin-left: 40px;
     font-weight: 700;
     color: #000 !important;
 }
@@ -22,6 +22,24 @@
 }
 .header-section .btn-info:hover{
     background: #00008B;
+}
+
+.isStuck{
+    left:0px;
+    width:100%;
+    background: #fff;
+    padding: 15px 0px;
+    border-bottom: 1px solid #dee2e6;
+}
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  /*margin-top:20px;*/
+  position: relative;
+  z-index: 15;
+
 }
 
 
@@ -105,13 +123,19 @@
     box-shadow: 0 14px 22px 0 rgba(92,147,180,0.2);
 }
 .join .join-img img{
-    height: 335px;
+    
 }
 .join .join-txt{
     padding: 40px;
-    margin-top: 68px;
     box-shadow: 0 14px 22px 0 rgba(92,147,180,0.2);
 }
+.join .join-txt h3{
+    font-size: 35px;
+}
+.join .join-txt p{
+    color:  #A9A9A9;
+}
+
 
 
 
@@ -125,7 +149,7 @@ box-shadow: 0 14px 20px 0 rgba(92,147,180,0.2);
 .our-partner .headline h1{
     font-size: 60px;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
     color: #5f67ff;
 }
 .our-partner .card{
@@ -138,11 +162,12 @@ box-shadow: 0 14px 20px 0 rgba(92,147,180,0.2);
     box-shadow: 0 14px 20px 0 rgba(95,147,180,0.2);
 }
 .our-partner .card .card-img img{
-    width: 317px;
-    height: 95px;
+    height: 60px;
+    margin: 0 auto;
 }
 .our-partner .card .card-body{
     margin-top: 20px;
+    height: 150px;
 }
 .our-partner .card .card-body h5{
     font-size: 18px;
@@ -185,7 +210,7 @@ box-shadow: 0 14px 20px 0 rgba(92,147,180,0.2);
     color:  #A9A9A9;
 }
 .steps .button{
-    margin: 40px 0px
+    margin: 78px 0px 20px;
 }
 .steps .button .btn-info{
     font-size: 17px;
@@ -224,6 +249,7 @@ box-shadow: 0 14px 20px 0 rgba(92,147,180,0.2);
 .footer-section .foot-box ul li a{
     font-size: 15px;
     color: #fff;
+    line-height: 2;
 }
 .footer-section .foot-box ul li a:hover{
     font-size: 17px;

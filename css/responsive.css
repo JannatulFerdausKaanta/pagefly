@@ -1,5 +1,27 @@
 /* XX Large Screen */
 @media(max-width: 1399px){
+	.header-section .nav-link {
+	    font-size: 16px;
+	    margin-left: 25px;
+	}
+
+	.partner .part-box h1 {
+	    padding: 12px 40px 12px calc(50% - 560px);
+	}
+	.feature .feature-inner h1 {
+	    font-size: 60px;
+        margin-bottom: 18px;
+	}
+	.join .join-txt h3 {
+	    font-weight: 600;
+	}
+	.join .join-txt h5 {
+	    font-size: 18px;
+	}
+
+	.footer-section .foot-box{
+	    padding-left: 44px;
+	}
 
 }
 
@@ -7,6 +29,27 @@
 
 /* X Large Screen */
 @media(max-width: 1199px){
+	.header-section .nav-link {
+	    font-size: 15px;
+	    margin-left: 15px;
+	}
+	.partner .part-box h1 {
+	    padding: 12px 27px 12px calc(50% - 470px);
+	    font-size: 45px;
+	}
+	.feature .feature-inner h1, .our-partner .headline h1 {
+	    font-size: 50px;
+	}
+	.feature .feature-inner .card {
+	    padding: 10px;
+	    height: 430px;
+	}
+	.feature .feature-inner .card .card-body h5 {
+	    font-size: 18px;
+	}
+	.steps .steps-inner h5 {
+    font-size: 18px;
+	}
 
 }
 
@@ -15,158 +58,196 @@
 /* Large Screen */
 @media(max-width: 991px){
 
-	.banner-section .banner-inner{
-	    width: 56%;
+	.header-section .nav-link {
+	    display: inline-block;
 	}
-
-	.banner-section .banner-inner h1{
-		font-size: 29px;
+	.partner .part-box h1 {
+    padding: 12px 27px 12px calc(50% - 350px)
 	}
-
-	.banner-section .banner-inner p{
-		font-size: 16px;
+	.feature .feature-inner .card .card-body {
+	    padding: 1rem 0;
 	}
-
-	.banner-section .banner-inner h2{
-		font-size: 28px;
+	.feature .feature-inner .card {
+    	height: 405px;
 	}
-
-	.strike:before{
-    	width: 64px;
+	.join .join-img {
+	    padding: 32px 20px
 	}
-	.description-section {
-    	padding: 40px 0px;
+	.our-partner .card .card-img {
+	    padding: 15px 10px;
 	}
-	.description-section .description-inner p {
-    	font-size: 14px;
+	.our-partner .card .card-body {
+	    height: 200px;
 	}
-	.card-section {
-    	padding: 25px 0px 75px;
-    }
-	.card-section .card-inner h6 {
-	    font-size: 13px;
+	.our-partner .card .card-body h5 {
+	    font-size: 16px;
 	    font-weight: 600;
 	}
-
-	.card-section .card-inner p {
-    	font-size: 14px;
+	.our-partner .card .card-body p {
+	    font-size: 13px;
+	}
+	.steps {
+	    padding: 38px 0px 95px;
+	}
+	.steps .steps-headline h3 {
+	    font-size: 35px;
+	}
+	.footer-section .foot-box h6 {
+	    font-size: 18px;
+	    margin-bottom: 15px;
+	}
+	.footer-section .foot-box ul li a {
+	    font-size: 14px;
+	    line-height: 1.5;
+	}
+	.footer-section .foot-box {
+	    padding-left: 15px;
+	}
+	.footer-section .copy p {
+	    font-size: 13px;
+        margin-top: 20px;
 	}
 
-	.feature-content h1 {
-    	font-size: 36px;
-    	margin-top: 21px;
-	}
-
-	.feature-content ul li {
-    	font-size: 15px;
-	}
-	.brand-section p {
-	    padding: 8px 60px;
-	    font-size: 15px;
-	}
-	.footer-section h2 {
-    	font-size: 34px;
-	}	
-	.footer-section h5 {
-    	font-size: 18px;
-	}
-	.footer-section .copyright p{
-    	font-size: 14px;
-	}
 }
 
 
 
 /* Medium Screen */
 @media(max-width: 767px){
-	.banner-section .banner-inner{
-	    width: 78%;
+	.partner .part-box h1 {
+	    padding: 12px 27px 12px calc(50% - 260px);
 	}
-
-	.description-section .description-inner p {
-    	font-size: 13px;
+	.feature .feature-inner .card {
+	    height: auto;
+	    margin: 0px 25px 50px;
 	}
-
-	.card-section .card-inner h6 {
+	.join .join-img img {
+		max-width: 90%;
+		margin: 0 auto;
+	}
+	.join .join-img {
+	    background: #fff;
+	}
+	.join .join-txt {
+	    padding: 60px 40px;
+	    margin-top: 50px;
+	    background: #fff;
+	}
+	.our-partner .card .card-body {
+	    height: auto;
+	}
+	.steps .steps-headline h3 {
+	    font-size: 27px;
+	    font-weight: 600;
+	}
+	.steps .steps-inner h1 {
+	    font-size: 80px;
+	}
+	.steps .steps-inner h5 {
+	    font-weight: 600;
+	}
+	.steps .button .btn-info {
 	    font-size: 14px;
+	    padding: 12px 25px !important;
 	}
-
-	.card-section .card-inner p {
-    	font-size: 10px;
+	.steps .button {
+	    margin: 30px 0px 0px;
 	}
-
-	.feature-content {
-    	padding-left: 42px;
+	.footer-section .foot-box {
+	    padding-left: 40px;
+	    margin-bottom: 45px;
 	}
-	.feature-content h1 {
-    	font-size: 30px;
-    	margin-top: 10px;
+	.footer-section .copy {
+	    text-align: center;
 	}
-	.feature-content ul li {
-    	font-size: 13px;
+	.feature .feature-inner .card img {
+	    max-width: 80%;
+	    margin: 0 auto;
 	}
-
-	.brand-section {
-    	padding: 38px;
-	}
-	.brand-section p {
-	    padding: 8px 60px;
-	    font-size: 14px;
-	}
-
-	.footer-section h2 {
-    	font-size: 29px;
-	}	
-	.footer-section h5 {
-    	font-size: 16px;
-	}
-	.footer-section .copyright p{
-    	font-size: 13px;
-	}	
 }
+
+
+
 
 
 
 /* Small Screen */
 @media(max-width: 575px){
 
+	.partner .part-box h1 {
+	    padding: 12px 27px 12px calc(50% - 220px);
+	    font-size: 40px;
+	}
+	.feature .feature-inner h1, .our-partner .headline h1 {
+	    font-size: 42px;
+	}
+
 }
 
 
 
+
+
+
 /* X Small Screen */
-@media(max-width: 320px){
-	.header-section img {
-    	width: 25%;
+@media(max-width: 480px){
+	.header-section img, svg {
+	    width: 120px;
+	}
+	.partner .part-box h1 {
+	    padding: 10px 25px 10px calc(50% - 140px);
+	    font-size: 35px;
+	}
+	.feature .feature-inner h1, .our-partner .headline h1 {
+	    font-size: 35px;
+	    text-align: center;
+	}
+	.feature .feature-inner h3 {
+	    font-weight: 600;
+	    margin-bottom: 45px;
+	    text-align: center;
+	    font-size: 22px;
+	}
+	.join .join-txt h3 {
+	    font-weight: 600;
+	    font-size: 30px;
+	}
+	.join .join-txt h5 {
+	    font-size: 17px;
+	}
+	.join .join-txt p {
+	    font-size: 14px;
+	    margin-top: 20px;
+	}
+	.footer-section .foot-box {
+	    padding-left: 70px;
+	}
+	.footer-section .foot-box ul li a {
+	    font-size: 13px;
+	}
+	.footer-section .copy p {
+	    font-size: 12px;
+	}
+	.steps .steps-headline h3 {
+	    font-size: 26px;
+	    text-align: center;
+	}
+	.steps .steps-headline {
+	    margin-bottom: 35px;
+	}
+	.steps .button .btn-info {
+	    font-size: 13px;
+	    font-weight: 600;
+	    padding: 10px 20px !important;
+	}
+	.col-x-sm-12{
+		width: 100%;
+		text-align: center;
+	}
+	.footer-section .foot-box h6 {
+	    font-size: 17px;
+	    margin-bottom: 8px;
 	}
 
-	.banner-section{
-		padding: 15px 0px;
-	}
-	.banner-section .banner-inner{
-	    width: 95%;
-	    margin: 15px 0 auto;
-	}
-	.banner-section .banner-inner h1 {
-    	font-size: 19px;
-	}
-	.banner-section .banner-inner p{
-    	font-size: 13px;
-	}
-	.banner-section .banner-inner h2 {
-    	font-size: 20px;
-	}
-	.banner-section .banner-inner .btn {
-	    padding: 5px 13px;
-	    font-size: 13px;
-  	}
-  	.strike:before {
-    	width: 46px;
-	}
-	.description-section .description-inner span {
-    	width: 100%;
-	}
-	.description-section .container{
-		
-	}
+
 }
